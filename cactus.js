@@ -42,7 +42,7 @@ export function getCactusRects() {
 function createCactus() {
   const cactus = document.createElement("img")
   cactus.dataset.cactus = true
-  cactus.src = "https://telegra.ph/file/3eb0d621df2044cd11c76.png"
+  cactus.src = "https://telegra.ph/file/00911308b2cce977a6adc.png"
   cactus.classList.add("cactus")
   setCustomProperty(cactus, "--left", 100)
   worldElem.append(cactus)
