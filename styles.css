@@ -9,6 +9,10 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background-image: url('https://telegra.ph/file/e77bcf63483317af7e460.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-color: white;
 }
 
 .world {
