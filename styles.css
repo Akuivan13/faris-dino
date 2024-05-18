@@ -9,7 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-image: url('https://telegra.ph/file/0cb1faf05be7a4ab8cc3e.jpg');
+  background-image: url('https://telegra.ph/file/e483734d9dfbc2cb3b52f.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   font-color: white;
@@ -23,6 +23,7 @@ body {
 .score {
   position: absolute;
   font-size: 3vmin;
+  text-align: center;
   right: 1vmin;
   top: 1vmin;
 }
@@ -51,13 +52,13 @@ body {
   --bottom: 0;
   position: absolute;
   left: 1%;
-  height: 30%;
+  height: 25%;
   bottom: calc(var(--bottom) * 1%);
 }
 
 .cactus {
   position: absolute;
   left: calc(var(--left) * 1%);
-  height: 30%;
+  height: 20%;
   bottom: 0;
 }

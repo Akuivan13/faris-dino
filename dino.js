@@ -68,12 +68,12 @@ function handleJump(delta) {
 }
 
 function onJump(e) {
-  if (e.code !== "Space" || isJumping) return
+  if ((e.code !== "Space" && e.type !== "touchstart") || isJumping) return
 
   jumpDino()
 }
 
-function onTouchStart() {
+function onTouchStart(e) {
   if (isJumping) return
 
   jumpDino()
