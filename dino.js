@@ -37,18 +37,18 @@ export function getDinoRect() {
 }
 
 export function setDinoLose() {
-  dinoElem.src = "https://telegra.ph/file/00911308b2cce977a6adc.png"
+  dinoElem.src = "https://telegra.ph/file/762b2ace5b1aa0e3371af.png"
 }
 
 function handleRun(delta, speedScale) {
   if (isJumping) {
-    dinoElem.src = `https://telegra.ph/file/f95a049322db35784fb39.png`
+    dinoElem.src = `https://telegra.ph/file/4d875ec346a403b9f7435.png`
     return
   }
 
   if (currentFrameTime >= FRAME_TIME) {
     dinoFrame = (dinoFrame + 1) % DINO_FRAME_COUNT
-    dinoElem.src = `https://telegra.ph/file/f95a049322db35784fb39.png-${dinoFrame}`
+    dinoElem.src = `https://telegra.ph/file/4d875ec346a403b9f7435.png-${dinoFrame}`
     currentFrameTime -= FRAME_TIME
   }
   currentFrameTime += delta * speedScale
